@@ -1,0 +1,116 @@
+/* 全体のスタイル */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0F7E0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーセクションのスタイル */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2em 0; /* パディングを増やして枠の大きさを広げる */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* 文字の大きさを少し大きくする */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* メインセクションのスタイル */
+main {
+    padding: 0 20%; /* 左右に20%の余白を追加 */
+}
+
+/* 各セクションの共通スタイル */
+section {
+    margin-bottom: 3em;
+}
+
+/* 強調表示されるセクションのスタイル */
+.highlighted {
+    border: 2px solid orange;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.highlighted h3 {
+    font-weight: bold;
+    font-size: 1.75em; /* 各セクションのタイトルのフォントサイズを設定 */
+}
+
+/* コンテンツメニューのスタイル */
+.content-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.content-menu li {
+    margin: 0 1em;
+}
+
+.content-menu li a {
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em; /* ホームセクションのコンテンツメニューの文字サイズを大きく設定 */
+}
+
+.content-menu li a:hover {
+    color: #ff6666;
+}
+
+/* リンクのスタイル */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 画像のスタイル */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+}
+
+/* フッターセクションのスタイル */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* ホームセクションのスタイル */
+.center-content {
+    text-align: center;
+}
+
+#home {
+    font-size: 1.5em; /* 文字の大きさを大きく設定 */
+}
+
+/* 各セクションの詳細説明のスタイル */
+#games p,
+#games2 p,
+#hobbies p {
+    font-size: 1.25em; /* 詳細説明のフォントサイズを少し大きく設定 */
+}
+
+/* 最近の趣味セクションの下にスペースを追加 */
+#hobbies {
+    margin-bottom: 8em; /* さらに3emのスペースを追加 */
+}
